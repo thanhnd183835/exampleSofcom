@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a56739-6c09-4c24-8ea6-f29027eacb1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CarsList/DialogCar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarsList/ListCar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/ListModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarsList/ListCar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarsList/ListCar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ListModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ListModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +64,16 @@
       <workItem from="1684286660513" duration="13333000" />
       <workItem from="1684305494081" duration="13754000" />
       <workItem from="1684373267464" duration="11853000" />
-      <workItem from="1684391764156" duration="6880000" />
+      <workItem from="1684391764156" duration="7177000" />
     </task>
+    <task id="LOCAL-00001" summary="example">
+      <created>1684398759102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684398759102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +90,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="example" />
+    <option name="LAST_COMMIT_MESSAGE" value="example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="395" key="#ESLint" timestamp="1684207742315">
@@ -111,10 +116,14 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1877" height="272" key="GridCell.Tab.0.right/-1920.674.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1684224667764" />
-    <state x="668" y="233" width="583" height="566" key="find.popup" timestamp="1684227032550">
+    <state x="552" y="230" key="Vcs.Push.Dialog.v2" timestamp="1684398769592">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="668" y="233" width="583" height="566" key="find.popup/-1920.674.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1684227032550" />
+    <state x="552" y="230" key="Vcs.Push.Dialog.v2/-1920.674.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1684398769592" />
+    <state x="668" y="233" width="583" height="566" key="find.popup" timestamp="1684398867472">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="668" y="233" width="583" height="566" key="find.popup/-1920.674.1536.826/0.0.1920.1032@0.0.1920.1032" timestamp="1684398867472" />
     <state x="616" y="238" key="run.anything.popup" timestamp="1684317906442">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

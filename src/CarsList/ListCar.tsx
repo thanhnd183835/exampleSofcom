@@ -141,7 +141,7 @@ const ListCar = () => {
                             return (
                                 <TableRow key={row.id}>
                                     <TableCell align="center">{row.type}</TableCell>
-                                    <TableCell align="center">{row.model.toLocaleDateString()}</TableCell>
+                                    <TableCell align="center">{''}</TableCell>
                                     <TableCell align="center">{row.color}</TableCell>
                                     <TableCell align="center">{row.price}</TableCell>
                                     <TableCell

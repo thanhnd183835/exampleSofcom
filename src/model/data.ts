@@ -1,5 +1,6 @@
 import {CarModel, EnumPersonGender, PersonModel} from "./ListModel";
 import exp from "constants";
+import dayjs from "dayjs";
 
 
 export const CarStatusOptions: Array<{
@@ -18,7 +19,7 @@ export const CarData: CarModel[] = [
     {
         id: '1',
         type: 'SUV',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'red',
         price: '2,5 tỷ',
         status: {
@@ -31,7 +32,7 @@ export const CarData: CarModel[] = [
     {
         id: '2',
         type: 'Sedan',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'Yellow',
         price: '1,5 tỷ',
         status:  {
@@ -44,7 +45,7 @@ export const CarData: CarModel[] = [
     {
         id: '3',
         type: 'Coupe',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'Yellow',
         price: '8,5 tỷ',
         status:  {
@@ -57,7 +58,7 @@ export const CarData: CarModel[] = [
     {
         id: '4',
         type: 'Coupe',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'Green',
         price: '30 tỷ',
         status:  {
@@ -70,7 +71,7 @@ export const CarData: CarModel[] = [
     {
         id: '5',
         type: 'SUV',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'Black',
         price: '15 tỷ',
         status: {
@@ -83,7 +84,7 @@ export const CarData: CarModel[] = [
     {
         id: '6',
         type: 'sedan',
-        model: new Date(),
+        model: dayjs(Date.now()),
         color: 'Black',
         price: '1,2 tỷ',
         status:  {

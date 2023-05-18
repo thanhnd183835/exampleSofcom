@@ -12,7 +12,7 @@ export type CarModel = {
     identificationPerson:string,
     id: string,
     type: string,
-    model: Date,
+    model: any,
     color: string,
     price: string,
     status:  CarStatusType | null,
