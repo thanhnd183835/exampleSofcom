@@ -7,7 +7,7 @@ const initialState = {
 };
 export const UpdatePerson = createSlice({
   name: "updateFormDataPerson",
-  initialState,
+  initialState: initialState,
   reducers: {
     updateFormDataPerson: (
       state = initialState,
@@ -15,7 +15,7 @@ export const UpdatePerson = createSlice({
     ) => {
       return {
         ...state,
-        ...action.payload,
+        updateFormDataPerson: { ...action.payload },
       };
     },
   },

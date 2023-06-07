@@ -13,21 +13,20 @@ import { Controller, useForm } from "react-hook-form";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { CarStatusOptions } from "../model/data";
+// import { CarStatusOptions } from "../model/data";
 import React, { useState } from "react";
 import { CarModelFormData } from "../model/ListModel";
 
 const DialogCar = () => {
   const [openDialog, setOpenDialog] = useState(false);
-  const { handleSubmit, reset, control, watch, setValue, getValues } = useForm<
-    CarModelFormData
-  >({
-    mode: "onSubmit",
-    reValidateMode: "onBlur",
-    criteriaMode: "firstError",
-    shouldFocusError: true,
-    defaultValues: {},
-  });
+  const { handleSubmit, reset, control, watch, setValue, getValues } =
+    useForm<CarModelFormData>({
+      mode: "onSubmit",
+      reValidateMode: "onBlur",
+      criteriaMode: "firstError",
+      shouldFocusError: true,
+      defaultValues: {},
+    });
   const handleCancelDiaLog = () => {
     setOpenDialog(false);
   };
@@ -110,13 +109,13 @@ const DialogCar = () => {
                   // value={values.status}
                   // onChange={e => setValue('status', e.target.value , true)}
                 >
-                  {CarStatusOptions.map((status, index) => {
+                  {/* {CarStatusOptions.map((status, index) => {
                     return (
                       <MenuItem value={status.value} key={status.value}>
                         {status.label}
                       </MenuItem>
                     );
-                  })}
+                  })} */}
                 </Select>
               </FormControl>
             )}

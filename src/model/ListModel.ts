@@ -1,12 +1,10 @@
-import dayjs from "dayjs";
-
 export type CarStatusType = {
   label: string;
   value: number;
 };
 export type PersonGender = {
   label: string;
-  value: number;
+  value: string;
 };
 export type CarModel = {
   identificationPerson: string;
@@ -15,28 +13,26 @@ export type CarModel = {
   model: any;
   color: string;
   price: string;
-  status: CarStatusType | null;
+  status: number;
   manufacturer: string;
 };
 
 export type CarModelFormData = Omit<CarModel, "status"> & {
-  status: number | null;
+  status: CarStatusType | null;
 };
+export type CarFormData = Array<CarModel>; // redux car data
+
 export type PersonModel = {
-  idPerson: number;
+  idPerson: string;
   firstName: string;
   lastName: string;
-  age: number;
-  gender: PersonGender;
+  age: number | null;
+  gender: string | null;
   identification: string;
-  hasCar: Array<
-    CarModel & {
-      km: number;
-      using: boolean;
-    }
-  > | null;
+  hasCar: Array<CarModel>;
 };
 
 export type PersonModelFormData = Omit<PersonModel, "gender"> & {
-  gender: number | null;
+  gender: PersonGender;
 };
+export type PersonFormData = Array<PersonModelFormData>;

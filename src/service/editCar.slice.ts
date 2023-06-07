@@ -1,32 +1,26 @@
-import { CarModelFormData } from "../model/ListModel";
-import dayjs from "dayjs";
+import { CarModelFormData, CarFormData, CarModel } from "../model/ListModel";
+
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-  loading: false,
-  updateFormData: <CarModelFormData>{
+const initialState: CarFormData = [
+  {
     identificationPerson: "",
     id: "",
     type: "",
     model: "",
     color: "",
     price: "",
-    status: null,
+    status: 10,
     manufacturer: "",
   },
-};
+];
+
 export const UpdateCar = createSlice({
   name: "updateFromCar",
-  initialState,
+  initialState: initialState,
   reducers: {
-    updateFormCar: (
-      state = initialState,
-      action: PayloadAction<CarModelFormData>
-    ) => {
-      return {
-        ...state,
-        ...action.payload,
-      };
+    updateFormCar: (state, action: PayloadAction<CarModel>) => {
+      state.push(action.payload);
     },
   },
 });

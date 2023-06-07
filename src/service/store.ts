@@ -10,15 +10,18 @@ import {
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import { combineReducers } from "redux";
-import autoMergeLevel2 from "redux-persist/lib/stateReconciler/autoMergeLevel2";
+
 import { configureStore } from "@reduxjs/toolkit";
 import FormDataCarReducer from "../service/editCar.slice";
 import FormDataPersonReducer from "../service/editPerson.slice";
-import { config } from "process";
+import addFormCarReducer from "../service/addCar.slice";
+import addFormPersonReducer from "../service/addPerson.slice";
 
 const rootReducer = combineReducers({
   updateFormCar: FormDataCarReducer,
   updateFormPerson: FormDataPersonReducer,
+  addFormCar: addFormCarReducer,
+  addPerson: addFormPersonReducer,
 });
 const persistConfig = {
   key: "root",
